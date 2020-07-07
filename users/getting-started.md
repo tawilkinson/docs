@@ -12,10 +12,10 @@ To do this you need to awnser the following questions.
 | Question?                                                    	| Command           	| Answers                                                                  	| Required 	|
 |--------------------------------------------------------------	|-------------------	|--------------------------------------------------------------------------	|----------	|
 | How many People live in your household?                      	| +sca people       	| ?                                                                        	| Yes      	|
-|  much electricity is used in your household?                 	|  +sca electricity 	| 2000,              3000,        4800,          7000,       ? (kWh)       	|  Yes     	|
+| How much electricity is used in your household?               |  +sca electricity 	| 2000,              3000,        4800,          7000,       ? (kWh)       	| Yes     	|
 |                                                              	|                   	| Hall of residence, Small House, Medium House, Large House, Custom        	|          	|
 | Does your Electricity come from a Green tariff?              	| +sca green        	| yes, no                                                                  	| Yes      	|
-|  How much gas is used in your household?                     	|  +sca gas         	| 0,    5000,              12000,       18000,        27000,       ? (kWh) 	|  Yes     	|
+| How much gas is used in your household?                     	|  +sca gas         	| 0,    5000,              12000,       18000,        27000,       ? (kWh) 	| Yes     	|
 |                                                              	|                   	| None, Hall of residence, Small House, Medium House, Large House, Custom  	|          	|
 | Do you buy local Food?                                       	| +sca food         	| where possible, always, never                                            	| Yes      	|
 | How many litres of heating oil is used in your household?    	| +heating_oil      	| ?                                                                        	| No       	|
