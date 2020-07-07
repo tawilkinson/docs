@@ -1,5 +1,9 @@
 # Getting Started
 
+## How to use this bot
+
+This bot tracks your carboo footprint and dispalys a leaderboard of carbon footprints. This is done by first establishing your static Carbon Footprint(Yearly) and your Varibale footprint(Daily). These are then added up other the year which will give us your yearly footprint. This means you must input your Varibale footprint(Daily) every day.
+
 ## Inital Setup
 
 You first need to register your details with the bot do this by running `+setup`. By doing this you agree to our privacy policy. 
@@ -22,6 +26,12 @@ To do this you need to awnser the following questions.
 | How many kilograms of coal is used in your household?        	| +heating_coal     	| ?                                                                        	| No       	|
 | How many kilograms of wood is used in your household?        	| +heating_wood     	| ?                                                                        	| No       	|
 | How many kilograms of bottled gas is used in your household? 	| +heating_bgas     	| ?                                                                        	| No       	|
+
+> Please not the commands will produce no reply if you enter valid data untill you save. If you don't you will get an error see error codes.
+
+## Saving Static Carbon Footprint 
+
+To save all the data you entered. Please run `+scas` You should then get a reply back telling you your data has been saved
 
 ## Variable Carbon Footprint
 
@@ -47,3 +57,7 @@ Your variable carbon footprint is things that effect your carboon footprint on a
 | Average £21 - £50                                                            	| +vca money 3     	|                 	|          	|
 | Below average £1 - £20                                                       	| +vca money 4     	|                 	|          	|
 | None £0                                                                      	| +vca money 5     	|                 	| Yes      	|
+
+## Saving Variable Carbon Footprint 
+
+To save all the data you entered. Please run `+vcas` You should then get a reply back telling you your data has been saved
