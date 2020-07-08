@@ -2,7 +2,7 @@
 
 ## How to use this bot
 
-This bot tracks your carboo footprint and dispalys a leaderboard of carbon footprints. This is done by first establishing your static Carbon Footprint(Yearly) and your Varibale footprint(Daily). These are then added up other the year which will give us your yearly footprint. This means you must input your Varibale footprint(Daily) every day.
+This bot tracks your carbon footprint and dispalys a leaderboard of carbon footprints. This is done by first establishing your static Carbon Footprint(Yearly) and your Variable footprint(Daily). These are then added up over the year which will give us your yearly footprint. This means you must input your Varibale footprint(Daily) every day.
 
 ## Inital Setup
 
@@ -10,8 +10,8 @@ You first need to register your details with the bot do this by running `+setup`
 
 ## Static Carbon Footprint 
 
-Your static carboon footprint is things that effect your carbon footprint on a yearly basis. This is divided by 365 and added to your daily.
-To do this you need to awnser the following questions. 
+Your static carboon footprint is comprised of things that effect your carbon footprint on a yearly basis. This is divided by 365 and added to your daily footprint.
+To do this you need to answer the following questions:
 
 | Question?                                                    	| Command           	| Answers                                                                  	| Required 	|
 |--------------------------------------------------------------	|-------------------	|--------------------------------------------------------------------------	|----------	|
@@ -27,15 +27,15 @@ To do this you need to awnser the following questions.
 | How many kilograms of wood is used in your household?        	| +heating_wood     	| ?                                                                        	| No       	|
 | How many kilograms of bottled gas is used in your household? 	| +heating_bgas     	| ?                                                                        	| No       	|
 
-> Please not the commands will produce no reply if you enter valid data untill you save. If you don't you will get an error see error codes.
+> Please note the commands will produce no reply if you enter valid data until you save. If you don't you will get an error, see error codes.
 
 ## Saving Static Carbon Footprint 
 
-To save all the data you entered. Please run `+scas` You should then get a reply back telling you your data has been saved
+To save all the data you entered: please run `+scas`. You should then get a reply back telling you your data has been saved.
 
 ## Variable Carbon Footprint
 
-Your variable carbon footprint is things that effect your carboon footprint on a day to day basis. 
+Your variable carbon footprint is comprised of things that effect your carbon footprint on a day to day basis. 
 
 | Question?                                                                    	| Command          	| Answers         	| Required 	|
 |------------------------------------------------------------------------------	|------------------	|-----------------	|----------	|
@@ -49,7 +49,7 @@ Your variable carbon footprint is things that effect your carboon footprint on a
 | Did you use a car today? Sports car or   large SUV (35 mpg)                  	| +vca transport 3 	| ? (Miles)       	| No       	|
 | Did you use a car today? Small or medium   SUV, or MPV (46 mpg)              	| +vca transport 4 	| ? (Miles)       	| No       	|
 | Did you use a car today? City, small,   medium, large or estate car (52 mpg) 	| +vca transport 5 	| ? (Miles)       	| No       	|
-| Did you fly by plane today?                                                  	| +vca transport 6 	| ?(Miles)        	| No       	|
+| Did you fly by plane today?                                                  	| +vca transport 6 	| ? (Miles)        	| No       	|
 |                                                                              	|                  	|                 	|          	|
 | How much Money did you spend today?                                          	|                  	|                 	|          	|
 | Way Above Average >£200                                                      	| +vca money 1     	|                 	|          	|
@@ -60,4 +60,4 @@ Your variable carbon footprint is things that effect your carboon footprint on a
 
 ## Saving Variable Carbon Footprint 
 
-To save all the data you entered. Please run `+vcas` You should then get a reply back telling you your data has been saved
+To save all the data you entered: please run `+vcas`. You should then get a reply back telling you your data has been saved.
